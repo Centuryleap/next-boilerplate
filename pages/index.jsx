@@ -7,8 +7,10 @@ const inter = Inter({ subsets: ["latin"] });
 export default function Home() {
   return (
     <main className="">
-      <div className="video bg-black w-full h-screen">
-        <video src={cynth} autoPlay muted controls></video>
+      <div className="bg-black w-full h-screen center text-white">
+        <h1>
+          Welcome
+        </h1>
       </div>
     </main>
   );
